@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: prelive
+  host: prelive
+  disk_quota: 1024M
+  services:
+  - d88e98be-bcb6-4fb4-_Cloudant_1097500165360573
+  - prelive-cloudantNoSQLDB
+  - availability-monitoring-auto
+  - App ID-j1lpzjpj
